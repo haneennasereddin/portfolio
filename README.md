@@ -9,6 +9,7 @@ I have linked my Github & LinkedIn profile below as well as email.
 
 # Link to application
 
+https://haneennasereddin.github.io/portfolio/
 
 # Screenshots
 
