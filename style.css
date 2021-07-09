@@ -17,7 +17,7 @@ body {
     margin-bottom: 0;
     width: 100%;
     height: 300px;
-    background: url("sunflowers.png");
+    background: url("/portfolio/images/sunflowers.png");
     background-size: cover;
     background-position: 10% 65%;
     background-repeat: no-repeat;
@@ -64,7 +64,7 @@ nav > a {
     padding: 20px;  
     display: grid;
     grid-template-columns: 20% 18% 60%;
-    grid-template-rows: 200px;   
+    grid-template-rows: 200px;  
 }
 
 .about_me {
@@ -77,9 +77,10 @@ nav > a {
 }
 
 .container_about_me > div img{
-    width: 200px;
+    width: 150px;
     height: 200px;
     padding-left:10px;
+    background-image: url(/portfolio/images/profile_pic.jpg);
     display: flex;
     flex-wrap: wrap; 
 }
@@ -89,7 +90,6 @@ nav > a {
     display: flex;
     flex-wrap: wrap;
 }
-/* work section*/
 
 .container_work {
     margin: 20px;
@@ -100,7 +100,6 @@ nav > a {
     grid-template-rows: 25% 25% 25% 25%;
 }
 
-/*work formatting on left*/
 .work {
     font-size: 40pt;
     height: 800px;
@@ -110,7 +109,6 @@ nav > a {
     grid-row: 1/5;
 }
 
-/*first item*/
 
 .work_content_1 {
     grid-column: 2/4;
@@ -121,7 +119,7 @@ nav > a {
 }
 
 #link_content_1 {
-    background-image: url(horiseon.jpg);
+    background-image: url(/portfolio/images/horiseon.jpg);
     background-size: cover;
     display:block;
     background-repeat: no-repeat;
@@ -146,7 +144,6 @@ nav > a {
     top: 300px;
 }
 
-/*outline*/
 
 .work_content_2 {
     position:relative;
@@ -154,7 +151,6 @@ nav > a {
     margin-bottom:10px;
     margin-left: 25px;
     margin-right: 10px;
-    background-image: url(../Images/);
     background-repeat:no-repeat;
     background-size:cover;
     border: 4px solid #c8a4be;
@@ -208,14 +204,11 @@ nav > a {
     border: 4px solid #c8a4be;
 }
 
-
-/* hover */
 .work_content_1:hover, .work_content_2:hover, .work_content_3:hover, .work_content_4:hover, .work_content_5:hover{
     opacity: .3;
     cursor: pointer;
 }
 
-/*me section*/
 .container_contact_me {
     margin: 20px;
     padding: 20px;   
@@ -223,8 +216,6 @@ nav > a {
     grid-template-columns: 20% 80%;
 }
 
-
-/*contact info*/
 .contact_me {
     display: flex;
     flex-flow: wrap;
@@ -234,7 +225,6 @@ nav > a {
     padding: 0px 20px;
 }
 
-/* links */
 .contact_me_info > ul > li {
     font-size: 18pt;  
     list-style-type: none; 
@@ -252,8 +242,7 @@ nav > a {
     display: flex;
     flex-wrap: wrap;
 }
-    
-/* media query */
+
 
 @media screen and (max-width:768px) {
     .container_contact_me, .contact_me_info, .contact_me, .container_about_me, .about_me, .about_me_content, .about_me_photo, .main_header {
